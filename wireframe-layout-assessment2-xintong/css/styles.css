@@ -1,0 +1,215 @@
+.container {
+  max-width:1310px;
+  margin: 0 auto;
+  background-color: #f0f4f8;
+}
+
+.site-header {
+  background-color: #fff;
+  padding: 1rem 2rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width:3.75rem; 
+  height: auto;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.main-nav a {
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.sign-in-btn {
+  background-color: #c8102e;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: .13rem;
+  font-size: 0.8rem;
+}
+
+.hero {
+  background-color: #005b96;
+  color: #fff;
+  padding: 2.5rem 2rem;
+}
+
+.hero-content {
+  display: flex;
+  align-items: flex-start; 
+  gap: 2rem;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column; 
+  gap: 1.5rem;
+  flex: 1; 
+  min-width: 18.875rem; 
+}
+
+.hero h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  flex: 2; 
+  max-width: 41.25rem; 
+}
+
+.cta-btn {
+  background-color: #005b96;
+  color: #fff;
+  border: .0625rem solid #fff;
+  padding: 0.5rem 1rem;
+  border-radius: .125rem;
+  font-size: 0.75rem;
+  width: fit-content; 
+}
+
+.main-content {
+  padding: 1rem 2rem;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.left-column {
+  flex: 3;
+  min-width: 28rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.right-column {
+  flex: 2; 
+  min-width: 20rem;
+}
+
+.game-night {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.game-night-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.game-night h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.game-night p {
+  font-size: 0.625rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.link-btn {
+  color: #c8102e;
+  font-size: 0.75rem;
+}
+
+.newsletter, .magic, .events {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.newsletter h3, .magic h3, .events h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.newsletter p, .events p {
+  font-size: 0.625rem;
+  line-height: 1.5;
+}
+
+.newest-games {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.newest-games h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.game-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.game-list li {
+  text-align: center;
+}
+
+.game-list img {
+  width: 5rem;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.game-list p {
+  font-size: 0.625rem;
+}
+
+.site-footer {
+  background-color: #00263d;
+  color: #fff;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.625rem;
+  line-height: 1.5;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.footer-left {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+.sign-in-btn:hover, .cta-btn:hover, .link-btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.cta-btn:hover {
+  background-color: #fff;
+  color: #005b96;
+}
